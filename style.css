@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Xiomara;
+    src: local("Xiomara"), url(Xiomara.ttf);
+}
+
+html, body, h1, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.22);
+}
+
+h1 {
+    color: #eea500;
+    font-family: Xiomara;
+    font-size: 300%;
+    left: 60px;
+    position: absolute;
+    top: 10px;
+}
+
+.content {
+    width: 639px;
+    height: 700px;
+    background: url('background.png') 0 0 no-repeat transparent;
+    margin-left: -320px;
+    margin-top: -350px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    box-shadow: 0 0 30px 0 rgba(50, 50, 50, 0.5);
+}
+
+.scores {
+    color: #FFF;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+    left: 470px;
+    font-size: 250%;
+    position: absolute;
+    top: 625px;
+}
+
+.scores span:hover {
+    color: #ffde00;
+}
